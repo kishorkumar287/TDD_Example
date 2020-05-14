@@ -27,4 +27,12 @@ public class LeapYear_Calculator {
 		
 		return false;
 	}
+	
+	public boolean fourthCriteria(int date)
+	{
+		if(date % 4 != 0)
+			return false;
+		
+		return true;
+	}
 }
